@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;;
+}
+body{
+    background-image:linear-gradient(rgba(10, 10, 10, 0.3),rgba(7, 7, 7, 0.3)),url('../images/pic4.jpg');
+    background-size: cover;
+}
+header {
+        width: 100%;
+        height:100vh;
+        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../images/pic4.jpg');
+        background-size:no-repeat;
+        background-size: cover;
+
+    }
+
+nav{
+        width:100%;
+        height:15vh;
+        background:rgb(135, 208, 250);
+        /* color:black; */
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        text-transform:uppercase;
+}
+nav .logo{
+        font-size: 12px;
+        width:25%;
+        text-align:center;
+    }
+
+nav .menu{
+        width:40%;
+        display:flex;
+        justify-content: space-around;
+}
+
+nav .menu a{
+    width: 15%;
+    text-decoration: none;
+    color:black;
+    font-weight:bold ;
+}
+
+main{
+    width:100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color:aqua;
+    text-shadow: 1px 1px 2px black;
+}
+
+section h1{
+    margin:20px 0 20px 0;
+    font-size: 50px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+section a{
+    padding:12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+section .btnone{
+    background: lightgreen;
+    color:black;
+    word-spacing: 2px;
+}
+
+section .btntwo{
+    background: white;
+    color:black;
+}
+ 
+ .buttons{   
+    width: 500px;
+    height: 500px;
+    padding: auto;
+    margin:30px auto;
+    /* border:2px solid white;   */
+    display:flex; 
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: center; 
+}
+
+form a{
+    padding:20px 50px;
+    border-radius: 3px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+    
+}
+
+
+form .buttons .stu{
+    margin: 100px 30px 500px 50px;
+    background: white;
+    color:black;
+}
+
+form .buttons .lib{
+    margin:300px 20px 50px 30px;
+    background: lightgreen;
+    color:black;
+}
